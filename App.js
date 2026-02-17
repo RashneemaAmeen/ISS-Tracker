@@ -8,28 +8,7 @@ import HomeScreen from './screens/Home';
 import IssLocationScreen from './screens/IssLocation';
 import MeteorScreen from './screens/Meteors';
 
-//CLASS 1 T.A C76 
-/*
-export default class App extends Component{
-  render(){
-    return(
-      <View style = {styles.container}>
-       <IssLocationScreen/>
-      </View>
-    )
-  }
-}
-*/
-
-
-
-//CLASS 1 S.A C76
 const Stack = createStackNavigator();
-
-
-
-
-
 
 export default class App extends Component {
   render(){
